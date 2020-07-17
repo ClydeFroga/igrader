@@ -1,0 +1,36 @@
+@import "vars.less";
+.copyright{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	flex-grow:1;
+	font-size:@footerFont;
+	& span{
+		margin-bottom:1.5em;
+	}
+	&__text{
+		color:@menuAColor;
+		font-size: 0.9em;
+	}
+	&__desc{
+		text-align: right;
+		color:@menuAColor;
+		font-size: 0.9em;
+	}
+
+}
+@media all and(max-width:480px){
+	.copyright{
+		display: block;
+		margin-top:2em;
+		& span{
+			display: block;
+			margin-bottom:1em;
+			text-align:center;
+		}
+	&__desc{
+		text-align: center;
+		}
+	}
+}

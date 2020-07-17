@@ -1,0 +1,49 @@
+@import "vars.less";
+.magazinePage{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom:2.5em;
+	&__img{
+		display:flex;
+		flex-grow: 2;
+		width: 250px;
+		margin-bottom: 1.5em;
+		&>img{
+			width:250px;
+			max-width:250px;
+		}	
+	}
+	&__description{
+		padding:0 1.2em;
+		width:100%;
+	}
+	&__title{
+		font-family: 'Roboto', 'Acrobat', sans-serif;
+		font-size:1.5em;
+		font-weight:bold;
+		margin-bottom:1.5em;
+		padding-bottom: 10px;
+		border-bottom:2px solid black;
+	}
+	&__desc{
+		font-size: 1.2em;
+		line-height: 1.3em;
+		margin-bottom: 1.5em;
+	}
+	& a{
+		display: block;
+		margin-bottom:1.1em;
+		font-weight:bold;
+		font-size: 1.3em;
+
+	}
+}
+@media all and(max-width:576px){
+	.magazinePage{
+		flex-direction: column;
+		&__description{
+		padding:0
+	}
+	}
+}

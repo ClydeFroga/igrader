@@ -1,0 +1,45 @@
+@import "vars.less";
+.singleArticle{
+    & .writer{
+        clear: both;
+        margin: 0 0em 20px 0;
+        &__text{
+            color:rgba(37, 77, 92, 0.7);;
+            font-size: 0.8em;
+            font-weight: 400;
+            padding: 0 5px 0 0;
+            text-align: left;
+            font-style:italic;       
+        }
+        & a{
+            color:rgba(11, 21, 56, 0.8);
+            font-size: 1em;
+            padding: 0 5px 0 0;
+            font-weight: 700;
+            font-style:italic; 
+            &:active{
+                color:#0b1538;
+            }
+            &:hover{
+                color: @menuAColorHover;
+                transition: .1s;
+                }
+        }
+}
+}
+@media all and(max-width: 576px){
+	.writer{
+        &__text{
+            font-size: 0.6em;
+            
+        }
+        & a{
+            font-weight: 600;
+            color:rgba(11, 21, 56, 0.6);
+            font-size: 1em;
+            
+        }
+	}
+}    
+        
+        

@@ -1,0 +1,31 @@
+@import "vars.less";
+.newMagazine{
+	overflow:hidden;
+	margin-bottom:1.5em;
+	&>a{
+		display: block;
+		font-size:1em;
+		color: @downAnchor;
+		&:hover{
+			color:@menuAColorHover;
+		}
+	}
+	& img{
+		max-width:100%;
+		box-sizing:border-box;
+		border:1px solid @bordersColor;
+	}
+	& p, & span{
+		font-size: 0.9em;
+		color:@menuAColor;
+		text-align: left;
+	}
+}
+
+@media all and(max-width:990px) {
+	.newMagazine {
+		& > a {
+			text-align: center;
+		}
+	}
+}

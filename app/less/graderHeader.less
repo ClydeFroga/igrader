@@ -1,0 +1,196 @@
+@import "vars.less";
+.graderHeader{
+	width:100%;
+	max-width:100%;
+	box-sizing:border-box;
+	margin-bottom:2em;
+	& a{
+		font-weight:700;
+		font-family: 'Roboto', sans-serif;
+	}
+	& .navbar{
+		background-color: #24363c;
+	}
+
+	& .navbar-brand{
+		vertical-align: middle;
+		line-height: 1.5em;
+	}
+	& .navbar-brand img{
+		display: block;
+		margin-top:-6px;
+		max-width: 100px;
+	}
+.row{
+	margin-bottom: 1.5em;
+}
+}
+.graderLogo{
+	background-color:rgba(221,229,232,1);
+	background-size:cover;
+	padding:15px 0 15px;
+	position: relative;
+	color:#24363c;
+	margin-bottom: 1.5em;
+	
+	font-size: 1.5em;
+	&::after{
+		display:block;
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		max-width: 100%;
+		height: 100%;
+		content: '';
+		z-index:2; 
+	}
+	& img{
+			width:20%;
+		}
+	&__title{
+		display:inline-block;
+		position:relative;
+		text-align: left;
+		font-weight:700;font-family: 'Roboto', sans-serif;
+	}
+	&__description{
+		display: inline-block;
+		font-size: 0.9em;
+		font-weight:400;font-family: 'Roboto', sans-serif;
+		
+	}
+}
+.navbar-nav>li>.dropdown-menu{
+	background-color:#24363c;
+	padding:0;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#ffffff;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color:#aaaaaa;
+}
+.searchIcon{
+	position: absolute;
+	right:40px;
+	top:15px;
+	& i{
+		position: relative;
+		z-index: 100;
+		cursor:pointer;
+		font-size: 20px;
+		color:#ffffff;
+	}
+}
+.dropdown-menu>li>a{
+	color:#ffffff;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.car{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	max-width:100%;
+	overflow:hidden;
+	margin-bottom:1.5em;
+	background-color: rgba(230,230,230,1);
+	padding:5px 0;
+
+	&__slide{
+		display: flex;
+		padding-left:5px;
+		width:20%;
+		min-height: 100px!important;
+		&:first-of-type{
+			margin-left: 0;
+		}
+	}
+	&__img{
+		display: block;
+		position: relative;
+		width:50%;
+		box-sizing: border-box;
+		max-width:50%;
+		padding-top:26.6%;
+		overflow:hidden;
+		&>img{
+			display: block;
+			position: absolute;
+			top:0;
+			left:0;	
+			width:100%;
+			height: 100%;
+		}
+	}
+	&__linkW{
+		display: flex;
+		flex-grow:1;
+		flex-direction: column;
+		box-sizing: border-box;
+		padding:10px;
+		background-color: #ffffff;
+	}
+
+	&__link{
+		display:flex;
+		margin: auto auto;
+		color:#2a2a2a;
+		font-size:0.8em;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-weight: bolder;
+
+		&:hover{
+			color:#254550;	
+			text-decoration: none;
+		}
+	}
+}
+.marginPlus{
+	margin-bottom:1.5em;
+}
+.navbar{
+	font-weight:600;
+	font-size: 14px;
+	text-transform: uppercase;
+	max-width: 100vw;
+	& a{
+
+	font-weight:600;
+	font-size: 14px;
+		color: #254550;
+	}
+}
+.navbar-inverse .navbar-nav>li.active>a{
+}
+@media all and(max-width: 768px){
+	.searchIcon{
+		right:60px;
+	}
+	& .navbar-nav{
+		margin:0!important;
+	}
+}
+@media all and(max-width:576px){
+	.graderHeader{
+		overflow:auto;
+	}
+}
+@media all and(max-width:480px){
+	.car{
+		&__slide{
+			padding-left:7px;
+			padding-right:7px;
+		}
+	}
+	.graderLogo{
+		&__title, &__description{
+			text-align: center;
+		}
+
+	}
+
+}
