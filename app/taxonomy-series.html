@@ -2,183 +2,167 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Dprom.online</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Грейдер</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="fontStyle.css">
 	<script src="jQuery/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
-		<div class="wrapper">
-		<header class="dpHeader">
-			<div class="headerFirstPart">
-				<div class="logo">
-					<a href="index.html">
-						<img src="img/dprom_online.png" alt="Журнал Добывающая промышленность">
-					</a>
-				</div>
-				<div class="infoBlock">
-					<div class="tie">
-						<span class="tie__phone">
-							<svg class="tie__icon">
-								<use xlink:href="svgsprite.svg#num"></use>
-							</svg>
-							+7 (391) 237 - 15 - 37
-						</span>
-						<div class="formWrapper">
-							<input type="checkbox" id="formVision" class="tie__formVision">
-							<form id="searchform" role="search" method="get" class="tie__search">
-								<input type="text" id="searchText" class="tie__searchText"  tabindex="1" placeholder="поиск">
-								<button id="searchsubmit" class="searchSubmit">
-									<svg class="searchSubmit__icon">
-									<use xlink:href="svgsprite.svg#searchIcon"></use>
-									</svg>
-								</button>
-							</form>
+<header class="graderHeader">
+	<div class="formWrapper">
+		<form id="searchform" role="search" method="get" class="searchform" action="https://igrader.ru/">
+			<span><i class="fa fa-close closeForm"></i></span>
+			<input type="text" id="s" name="s" class="searchform__text" tabindex="1" placeholder="Что ищем?" >
+			<button id="searchsubmit" class="searchform__btn">поиск</button>
+		</form>
+	</div>
+	<div class="navbar navbar-inverse">
+		<div class="container" style="position:relative;">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="exe.html" class="navbar-brand"><img src="img/whiteLogo.png" alt=""></a>
+				<ul class="nav navbar-nav navbar-right">
+					<span class="searchIcon" id="srchIcn"><i class="fa  fa-search"></i></span>
+				</ul>
+				<ul class="nav navbar-nav navbar-collapse collapse">
+					<li class=""><a href="taxonomy-mining.html">О журнале</a></li>
+					<li><a href="single.html">Новости</a></li>
+					<li><a href="category.html">Архив</a></li>
+					<li class="dropdown" >
+						<a href="taxonomy-series.html" class="dropdown-toggle" data-toggle="dropdown">круто длинно и т.д.
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="taxonomy.html">Ссылка</a></li>
+							<li><a href="search.html">Ссылка</a></li>
+							<li><a href="category.html">Ссылка</a></li>
+						</ul>
+					</li>
+					<li><a href="category-1599.html">задрали правки</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="add__menu">
+		<div class="navbar navbar-expand">
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
+						<div class="collapse navbar-collapse" id="navbar-urk">
+							<ul class="nav navbar-nav">
+								<li class="umpalumpa">
+									<a href="#">Пункт 1 <span class="sr-only">(current)</span></a>
+								</li>
+								<li>
+									<a href="#">Пункт 2</a>
+								</li>
+								<li class="dropdown" >
+									<a href="taxonomy-series.html" class="dropdown-toggle" data-toggle="dropdown">круто длинно и т.д.
+										<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href="single-event.html">Ссылка</a></li>
+										<li><a href="search.html">Ссылка</a></li>
+										<li><a href="category.html">Ссылка</a></li>
+									</ul>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<div class="menu">
-						<label for="menuCheck" class="menu__label">
-							<svg>
-								<use xlink:href="svgsprite.svg#burgerMenu"></use>
-							</svg>
-						</label>
-						<input type="checkbox" class="menu__check" id="menuCheck">
-						<ul class="heading">
-							<li class="current-menu-item"><a href="#">Главная</a></li>
-							<li><a href="taxonomy-series.html">Архив</a></li>
-							<li><a href="#">О проекте</a></li>
-							<li><a href="#">Мероприятия</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="categoryMenu">
-					<input type="checkbox" id="lop" name="menuCheck">
-					<label for="lop">
-						<svg class="categoryMenu__svg">
-							<use xlink:href="svgsprite.svg#burgerMenu2"></use>
-						</svg>
-					</label>
-					<ul class="categoryMenu__list">
-						<li><a href="category.html">Золото</a></li>
-						<li><a href="category.html">Уголь</a></li>
-						<li><a href="category.html">Транспорт</a></li>
-						<li><a href="category.html">Металлы и руды</a></li>
-						<li><a href="category.html">Химия</a></li>
-						<li><a href="category.html">Инфо</a></li>
-						<li><a href="category.html">Мероприятия</a></li>
-						<li><a href="category.html">Нефтегаз</a></li>
-						<li><a href="category.html">Разведка</a></li>
-						<li><a href="category.html">Произвольная страница</a></li>
-					</ul>
 				</div>
 			</div>
-		</header>
-		<div class="table">
+		</div>
+	</div>
+</header>
+
+		<div class="wrapper">
+		<div class="tableArchive">
 			<div class="middle-block">
-				<div class="sidebar-left">
-					<div class="events">
-						<h3 class="events__header">Мероприятия</h3>
-						<table class="events__table">
-							<tr class="events__row">
-								<td class="events__date">04.02.2019 07.02.2019</td>
-								<td class="events__name">
-									<a href="#">International Mine Water Association Conference 2019, Пермь</a></td>
-							</tr>
-							<tr class="events__row">
-								<td class="events__date">04.02.2019 07.02.2019</td>
-								<td class="events__name"><a href="#">«МАЙНЕКС Дальний Восток», г. Магадан</a></td>
-							</tr>
-							<tr class="events__row">
-								<td class="events__date">04.02.2019 07.02.2019</td>
-								<td class="events__name"><a href="#">«ГеоЕвразия-2019», Москва</a></td>
-							</tr>
-							<tr class="events__row">
-								<td class="events__date">04.02.2019 07.02.2019</td>
-								<td class="events__name"><a href="#">«ГеоЕвразия-2019», Москва</a></td>
-							</tr>
-						</table>
-					</div>
-					<div class="newMagazine">
-						<h3 class="widget-title">Свежий номер</h3>
-						<a href="#">
-							<img src="https://picsum.photos/250/400/?random" alt="">
-						</a>
-						<a href="#">Версия online</a>
-						<a href="#">Скачать</a>
-					</div>
-				</div>
+
 				<main>
+					<div class="breadcrumbs">
+						<span class="">Хлебные крошки</span>
+					</div>
+
 				<section class="magazine">
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag4.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag1.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag3.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag4.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag2.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag7.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag5.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag6.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag1.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag8.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag7.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>
 					<div class="magazine__item">
 						<a href="" class="magazine__anchor">
-							<img src="img/mag1.jpg" alt="" class="magazine__img">
+							<img src="img/mag.jpg" alt="" class="magazine__img">
 							<span class="magazine__title">Добывающая промышленность №1, 2019</span>
 						</a>
 					</div>

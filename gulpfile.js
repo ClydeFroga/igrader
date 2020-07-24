@@ -12,6 +12,7 @@ const cleancss = require("gulp-clean-css");
 const imagemin = require("gulp-imagemin");
 const newer = require("gulp-newer");
 const del = require("del");
+const critical = require('critical');
 
 function browsersync() {
   // страничка где происходят изменения
@@ -40,9 +41,21 @@ function styles() {
     .pipe(
       cleancss({ level: { 1: { specialComments: 0 } }, /*format: "beautify"*/ })
     )
-    // .pipe(dest("app"))
+      // .pipe(dest("app"))
     .pipe(dest("../../../../../xampp5.6/htdocs/igrader/wp-content/themes/igrader"))  // выгрузка
     .pipe(browserSync.stream());
+}
+
+function criticalR() {
+  return critical.generate({
+    base: 'app/',
+    src: 'index.html',
+    target: {css: 'css/critical.css',
+      uncritical: 'css/uncritical.css'},
+    width: 1920,
+    height: 1200,
+    css: 'style.css'
+  });
 }
 
 function scripts() {
@@ -78,7 +91,7 @@ function buildcopy() {
 function startwatch() {
   //слежка за изменением файлов
   watch("app/" + preprocessor + "/**/*", styles);
-  watch(["app/**/*.js", "!app/**/*.min.js"], scripts);
+  // watch(["app/**/*.js", "!app/**/*.min.js"], scripts);
   watch("app/**/*.html").on("change", browserSync.reload);
   watch("app/images/src/**/*", images);
 }
@@ -88,6 +101,7 @@ exports.scripts = scripts;
 exports.styles = styles;
 exports.images = images;
 exports.cleanimg = cleanimg;
+exports.critical = criticalR;
 exports.build = series(cleandist, styles, scripts, images, buildcopy);
 
-exports.default = parallel(styles, startwatch, browsersync);
+exports.default = parallel(styles, startwatch);

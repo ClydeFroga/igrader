@@ -5,7 +5,7 @@
 	margin-left:16.2%;
 	box-sizing: border-box;
 	overflow:hidden;
-	margin-bottom:2.5em; 
+	margin-bottom:2.5em;
 	&__wrapper{
 		display:block;
 		overflow-x:scroll;
@@ -17,7 +17,7 @@
 		display: block;
 		box-sizing: border-box;
 		position: relative;
-		font-size:1.6em;
+		font-size:1.4em;
 		margin-bottom: 1.5em;
 		padding-bottom: 0.3em;
 		font-weight:bold;
@@ -26,12 +26,12 @@
 		&::after{
 			display:block;
 			max-width:100%;
-			width:100%;
+			width: 100%;
 			content: '';
 			height:1px;
 			bottom:0;
 			position:absolute;
-			background-color:lighten(@backMenuColor,30%);
+			background-image:linear-gradient(to right, lighten(@backMenuColor,30%) 80%, transparent 100%);
 		}
 	}
 	&__item{
@@ -45,7 +45,7 @@
 		}
 	}
 	&__item:hover + &__item{
-			margin-left:4.5em;
+		margin-left:4.5em;
 	}
 	&__img{
 		width: 100%;
@@ -64,7 +64,7 @@
 		font-size:inherit;
 		color:inherit;
 		&:hover{
-			color:@HeaderColor2;
+			color:@mainHeaderColor;
 		}
 	}
 }
