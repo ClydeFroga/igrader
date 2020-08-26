@@ -1,0 +1,41 @@
+@import "vars.less";
+.interactive{
+	display: flex;
+	flex-direction: column;
+	flex-grow:3; 
+	font-size: @footerFont;
+	& a{
+		transition: 0.3s;
+		color:#ffffff;
+		margin-bottom:1.5em;
+		&:hover{
+			color:@iconColor;
+		}		
+	}
+	& span{
+		color:@ArticleDate;
+	}
+	& ul{
+		display: inline-block;
+		& li{
+			display: inline-block;
+			margin-left: 1.5em;
+		}
+	}
+	& div{
+		margin-bottom:1.5em;
+	}
+}
+@media all and(max-width: 576px){
+	.interactive{
+		& span{
+			display: block;
+			margin-bottom:1em;
+		}
+		& ul li{
+			display: block;
+			margin-left:0;
+			margin-bottom:0.5em;
+		}
+	}
+}

@@ -1,0 +1,41 @@
+@import "vars.less";
+.brandsList{
+	display: block;
+	width: 100%;
+	box-sizing:border-box;
+	max-width: 100%;
+	margin-bottom: 2.5em;
+	&__title{
+		display: block;
+		width:100%;
+		max-width: 100%;
+		margin-bottom:1.5em;
+		font-size: 1.5em;
+		padding-bottom: 0.2em;
+		border-bottom:1px solid @iconColor;
+	}
+	.wp-tag-cloud{
+		display:flex;
+		flex-direction:row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 100%;
+		list-style: none;
+		li{
+			display:inline-block;
+			margin-bottom: 1.5em;
+			a{
+				font-size:1.2em!important;
+				color:@iconColor;
+				padding:0.3em 1em;
+				border-radius: 3px;
+				border:1px solid @iconColor;
+				&:hover{
+					color:#ffffff;
+					border:1px solid @footerBack;
+					background-color:@footerBack;
+				}
+			}
+		}
+	}
+}

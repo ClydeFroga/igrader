@@ -1,0 +1,135 @@
+.graderHeader {
+  background-color: $footerBack;
+  margin-bottom: 2rem;
+  a {
+    color: white;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  a:hover {
+    background-color: $footerBack;
+    color: #aaa;
+    transition: .3s;
+  }
+  .dropdown-menu {
+    border: none;
+    background-color: $footerBack;
+    a {
+      color: white;
+      font-family: "Roboto Regular", sans-serif;
+      transition: .3s;
+    }
+    a:hover {
+      background-color: $footerBack;
+      color: #aaa;
+      transition: .3s;
+    }
+  }
+
+  .searchIcon{
+    height: 20px;
+    right:173px;
+    margin-bottom: 10px;
+    top: 16px;
+    & i{
+      position: relative;
+      z-index: 100;
+      cursor:pointer;
+      color:#ffffff;
+    }
+  }
+
+  &__logo {
+    max-width: 100px;
+    height: auto;
+  }
+
+  &__bot {
+    background-color: #dde5e8;
+    padding: 0;
+    .nav {
+      border: none;
+    }
+    a.nav-link {
+      color: black;
+      border: none;
+    }
+    a:hover {
+      background-color: #dde5e8;
+      border: none;
+      color: black;
+    }
+    a.nav-link.active {
+      color: black;
+      background-color: #ff9900;
+      border: none;
+      border-radius: 0;
+    }
+    li.show a {
+      color: black !important;
+      background-color: #dde5e8 !important;
+    }
+
+    .bot_dropdown {
+      background-color: #dde5e8;
+    }
+  }
+}
+
+.modal-search {
+  display: flex;
+  flex-direction: row;
+  button {
+    background-color: $footerBack;
+    color: white;
+  }
+}
+
+@media (max-width: 992px) {
+  .graderHeader {
+    &__bot {
+      background-color: $footerBack;
+      li.show a {
+        color: white !important;
+        background-color: $footerBack !important;
+      }
+      .bot_dropdown {
+        padding: 0;
+      }
+    }
+    .searchIcon {
+      position: absolute;
+    }
+    .nav-tabs {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  .collapsed-cont {
+    padding-left: 0;
+    a.nav-link{
+      padding-left: 0;
+      color: white;
+      transition: .3s;
+    }
+    a.nav-link:hover {
+      background-color: $footerBack;
+      color: #aaa;
+      transition: .3s;
+      border: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .graderHeader {
+    .searchIcon {
+      right: 63px;
+    }
+    .collapsed-cont {
+      padding-left: 15px;
+    }
+  }
+}
+

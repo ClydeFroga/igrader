@@ -1,0 +1,56 @@
+@import "vars.less";
+.ltlPl{
+	font-family: 'Acrobat','Roboto','Arial', sans-serif;
+	&__anchor{
+		display: block;
+		background-color: rgba(36, 54, 60,0.1);
+		margin-bottom: 1.5em;
+		transition: 0.5s;
+		&:hover img{
+			filter: brightness(110%);
+		}
+		&:hover p{
+			color:#666;
+		}
+	}
+	&__wrapper{
+		display: block;
+		box-sizing: border-box;
+		width:100%;
+		max-width:100%;
+		position: relative;
+		padding-top:70.6%;
+		overflow: hidden;
+		&>img{
+			position: absolute;
+			top:0;
+			left:0;
+		}
+	}
+	&__info{
+		padding:5px;
+		box-sizing: border-box;
+		min-height:90px;
+		&>span{
+			font-size: 12px;
+			color:#666;
+
+		}
+		&>span.date{
+			font-size:10px;
+		}
+		&>p{
+			font-family: 'Acrobat','Roboto', sans-serif;
+			color:#333;
+			font-size:16px;
+			line-height:18px;
+		}
+	}
+}
+@media all and(max-width:768px){
+	.ltlPl{
+		&__info{
+			
+		}
+	}
+}

@@ -1,0 +1,44 @@
+@import "vars.less";
+.mainthemes{
+	&__title{
+		display: block;
+		font-family: 'Roboto','Acrobat', sans-serif;
+		font-size: 1.1em;
+    	line-height: 1.2em;
+		color:darken(#dde5e8, 30%);
+		padding-bottom:0.4em;
+		border-bottom:2px solid darken(#dde5e8, 30%);
+		margin-bottom: 1.5em;
+	}
+}
+.mainthemes ul{
+	 column-count:4;
+	 column-gap:0;
+	 column-width:25%; 
+	 column-rule:2px solid darken(#dde5e8, 30%);
+	 margin-bottom:2em;
+	 list-style: none;
+	 border-left:2px solid darken(#dde5e8, 30%);
+	 & li{
+	 		padding-left:10px;
+	 		padding-bottom:8px;
+	 	& a{
+	 		display: block;
+	 		font-family: 'Roboto','Acrobat', sans-serif;
+    		font-size: 1.0em;
+    		line-height: 1.2em;
+	 		color:darken(#dde5e8, 30%);
+	 		&:hover{
+	 			color:#f90;
+	 		}
+	 	}
+	 }
+}
+@media all and(max-width:768px){
+	.mainthemes ul{
+		column-count:2;
+		column-width:50%;
+		column-gap:0;
+		column-rule:2px solid darken(#dde5e8, 30%);
+	}
+}

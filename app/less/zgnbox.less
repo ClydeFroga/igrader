@@ -1,0 +1,64 @@
+@import "vars.less";
+
+.zgnbox{
+	display: block;
+	box-sizing:border-box;
+	max-width: 100%;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom:3.5em;
+	&__title{
+		font-size: 2em;
+		font-weight:bold;
+		margin-bottom: 0.5em;
+		& a{
+			font-family: 'Roboto', 'Acrobat', sans-serif;
+		}
+	}
+	&__info{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items:center;
+		margin-bottom: 1.5em;
+	}
+	& a.zgnbox__category{
+		color:white;
+	}
+	&__category{
+		background-color:#24363c;
+		text-transform: uppercase;
+		border-radius:5px;
+		padding:0.5em 1.3em;
+		&:hover{
+			background-color:darken(#24363c, 10%);
+		}	
+	}
+	&__eye{
+		margin-left: 1em;
+		font-size: 1.1em;
+	}
+	&__desc{
+		font-family: 'Roboto', 'Acrobat', sans-serif;
+		font-size: 1.2em;
+		margin-bottom:1em;
+	}
+	&__img{
+		width: 100%;
+		max-width:640px;
+		margin-bottom: 1em;
+	}
+	&__btn{
+		display: flex;
+
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__date{
+		margin-right: 3px;
+	}
+	&__anc{
+		text-transform: uppercase;
+		color:#ffffff!important;
+	}
+}

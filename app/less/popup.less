@@ -1,0 +1,39 @@
+@import "vars.less";
+.popupWrapper{
+	display:none;
+	box-sizing: border-box;
+	width:100vw;
+	height:100vh;
+	position:fixed;
+	z-index: 300;
+	overflow:hidden;
+	background-color:rgba(255,255,255,0.8);
+	top:0;
+	left:0;
+	&__form{
+		display:none;
+		position: fixed;
+    	left: 50%;
+    	top: 50%;
+    	z-index: 400;
+    	transform: translate(-50%, -50%);
+    }
+    &__close{
+    	cursor:pointer;
+    	display:block;
+    	width:1.2em;
+    	height:1.2em;
+    	position: absolute;
+    	right:0;
+    	top:-1.2em;
+    }
+    &__icon{
+    	width:100%;
+    	height: 100%;
+    	float: right;
+    	fill:@menuAColorHover;
+    	&:hover{
+    		fill:@HeaderColor2;
+    	}
+    }
+}

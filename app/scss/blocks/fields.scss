@@ -1,0 +1,124 @@
+.field {
+  margin-top: 50px;
+  &__title {
+    margin-top: 20px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    border-bottom: 2px solid $footerBack;
+    margin-bottom: 1rem;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    a {
+      padding: 10px 30px 8px 30px;
+      color: white;
+      background-color: $footerBack;
+    }
+    a:hover {
+      color: white;
+    }
+  }
+
+  &__span {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  &__spanBot {
+    padding-top: 5px;
+  }
+
+  &__blockFull {
+    .field__botText {
+      margin-top: .7rem;
+    }
+  }
+
+  &__block {
+    > .field__imgBlc, .field__imgBlcBig {
+      display: block;
+      width: 100%;
+      position: relative;
+      box-sizing: border-box;
+      max-width: 100%;
+
+      overflow: hidden;
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    > .field__imgBlc {
+      padding-top: 56.6%;
+    }
+    > .field__imgBlcBig {
+      padding-top: 73.6%;
+    }
+
+    .field__text {
+      bottom: 0;
+    }
+    &__textTop {
+      top: 0;
+    }
+  }
+  &__four {
+    a {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.big {
+  background-color: #dde5e8;
+  margin-top: 3rem;
+  padding-bottom: 3.5rem;
+  .bigTitle {
+    padding: 2rem 15px 1rem 15px;
+    font-size: 65px;
+    color: #778181;
+    text-transform: uppercase;
+  }
+  .bigBlc .field__blockFull {
+    padding: 0;
+  }
+  .bigBlc .field__blockFull:first-child {
+    margin-left: 55px;
+  }
+  .bigBlc .field__blockFull:last-child {
+    margin-right: 55px;
+  }
+}
+
+.field__text {
+  bottom: 0;
+}
+.field__textTop {
+  top: 0;
+}
+.field__text, .field__textTop {
+  font-family: "Roboto Light", sans-serif;
+  font-size: 1rem;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  min-height: 70px;
+  background-color: rgba(12,12,12,.7);
+  color: #fff;
+  box-sizing: border-box;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .big .bigTitle {
+    padding-bottom: 0;
+    font-size: 40px;
+  }
+}

@@ -1,4 +1,4 @@
-let preprocessor = "less";
+let preprocessor = "scss";
 
 const { src, dest, parallel, series, watch } = require("gulp");
 const browserSync = require("browser-sync").create();
@@ -34,7 +34,7 @@ function cleandist() {
 
 function styles() {
   // из сасс/лесс в ксс
-  return src(["app/" + preprocessor + "**/*"]/*, "node_modules/bootstrap/scss/bootstrap.scss"]*/)
+  return src("app/" + preprocessor + "**/*")
     .pipe(eval(preprocessor)())
     .pipe(concat("style.css")) //имя
     .pipe(autoprefixer({ overrideBrowserslist: ["last 10 versions"] }))
@@ -42,7 +42,8 @@ function styles() {
       cleancss({ level: { 1: { specialComments: 0 } }, /*format: "beautify"*/ })
     )
       // .pipe(dest("app"))
-    .pipe(dest("../../../../../xampp5.6/htdocs/igrader/wp-content/themes/igrader"))  // выгрузка
+	.pipe(dest("../../../../../xampp5.6/htdocs/nuxtGrader/grader/assets"))  // выгрузка
+	// .pipe(dest("../../../../../xampp5.6/htdocs/igrader/wp-content/themes/igrader"))  // выгрузка
     .pipe(browserSync.stream());
 }
 

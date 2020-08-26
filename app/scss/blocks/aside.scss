@@ -1,0 +1,19 @@
+
+  .foxy {
+    margin-bottom: 2rem;
+    .foxy-news-line {
+      display: flex;
+      margin-bottom: .8rem;
+      img {
+        width: 90px;
+        height: auto;
+      }
+    }
+    &__text {
+      color: #254d5c;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+  }
+
+

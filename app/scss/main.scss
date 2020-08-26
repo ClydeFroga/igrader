@@ -1,0 +1,44 @@
+@import "blocks/vars";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+  font-size: 16px;
+  font-family: "Acrobat", sans-serif;
+  font-weight: 400;
+}
+
+html {
+  a {
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.orangeHover {
+  transition: .5s;
+  :hover {
+    transition: .5s;
+    color: $hoverLinks;
+  }
+}
+
+
+
+
+@import "blocks/header";
+@import "blocks/swipers";
+@import "blocks/wrapper";
+@import "blocks/fields";
+@import "blocks/riders";
+@import "blocks/footer";
+@import "blocks/news";
+@import "blocks/aside";
+@import "blocks/botNews";

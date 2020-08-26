@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dprom.online</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="fontStyle.css">
+	<script src="jQuery/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+		<div class="wrapper">
+		<header class="dpHeader">
+			<div class="headerFirstPart">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/dprom_online.png" alt="Журнал Добывающая промышленность">
+					</a>
+				</div>
+				<div class="infoBlock">
+					<div class="tie">
+						<span class="tie__phone">
+							<svg class="tie__icon">
+								<use xlink:href="svgsprite.svg#num"></use>
+							</svg>
+							+7 (391) 237 - 15 - 37
+						</span>
+						<div class="formWrapper">
+							<input type="checkbox" id="formVision" class="tie__formVision">
+							<form id="searchform" role="search" method="get" class="tie__search">
+								<input type="text" id="searchText" class="tie__searchText"  tabindex="1" placeholder="поиск">
+								<button id="searchsubmit" class="searchSubmit">
+									<svg class="searchSubmit__icon">
+									<use xlink:href="svgsprite.svg#searchIcon"></use>
+									</svg>
+								</button>
+							</form>
+						</div>
+					</div>
+					<div class="menu">
+						<label for="menuCheck" class="menu__label">
+							<svg>
+								<use xlink:href="svgsprite.svg#burgerMenu"></use>
+							</svg>
+						</label>
+						<input type="checkbox" class="menu__check" id="menuCheck">
+						<ul class="heading">
+							<li class="current-menu-item"><a href="#">Главная</a></li>
+							<li><a href="taxonomy-series.html">Архив</a></li>
+							<li><a href="#">О проекте</a></li>
+							<li><a href="#">Мероприятия</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="categoryMenu">
+					<input type="checkbox" id="lop" name="menuCheck">
+					<label for="lop">
+						<svg class="categoryMenu__svg">
+							<use xlink:href="svgsprite.svg#burgerMenu2"></use>
+						</svg>
+					</label>
+					<ul class="categoryMenu__list">
+						<li><a href="category.html">Золото</a></li>
+						<li><a href="category.html">Уголь</a></li>
+						<li><a href="category.html">Транспорт</a></li>
+						<li><a href="category.html">Металлы и руды</a></li>
+						<li><a href="category.html">Химия</a></li>
+						<li><a href="category.html">Инфо</a></li>
+						<li><a href="category.html">Мероприятия</a></li>
+						<li><a href="category.html">Нефтегаз</a></li>
+						<li><a href="category.html">Разведка</a></li>
+						<li><a href="category.html">Произвольная страница</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div class="table">
+			<div class="middle-block">
+				<div class="sidebar-left">
+					<div class="events">
+						<h3 class="events__header">Мероприятия</h3>
+						<table class="events__table">
+							<tr class="events__row">
+								<td class="events__date">04.02.2019 07.02.2019</td>
+								<td class="events__name">
+									<a href="#">International Mine Water Association Conference 2019, Пермь</a></td>
+							</tr>
+							<tr class="events__row">
+								<td class="events__date">04.02.2019 07.02.2019</td>
+								<td class="events__name"><a href="#">«МАЙНЕКС Дальний Восток», г. Магадан</a></td>
+							</tr>
+							<tr class="events__row">
+								<td class="events__date">04.02.2019 07.02.2019</td>
+								<td class="events__name"><a href="#">«ГеоЕвразия-2019», Москва</a></td>
+							</tr>
+							<tr class="events__row">
+								<td class="events__date">04.02.2019 07.02.2019</td>
+								<td class="events__name"><a href="#">«ГеоЕвразия-2019», Москва</a></td>
+							</tr>
+						</table>
+					</div>
+					<div class="newMagazine">
+						<h3 class="widget-title">Свежий номер</h3>
+						<a href="#">
+							<img src="https://picsum.photos/250/400/?random" alt="">
+						</a>
+						<a href="#">Версия online</a>
+						<a href="#">Скачать</a>
+					</div>
+				</div>
+				<main>
+					<article class="singleArticle">
+						<header class="singleArticle__title">
+							<div class="metaData">
+								<span class="metaData__date">15.09.2019</span>
+								<div class="hdSharing">
+									Поделиться 
+									<a href="#" class="hdSharing__vk" title="поделиться в Vk">
+										<svg class="searchSubmit__icon">
+											<use xlink:href="svgsprite.svg#vk_logo"></use>
+										</svg>
+									</a>
+									<a href="#" class="hdSharing__fb" title="поделиться в Fb">
+										<svg class="searchSubmit__icon">
+											<use xlink:href="svgsprite.svg#fb_logo"></use>
+										</svg>
+									</a>
+								</div>
+							</div>
+							<h1>
+						Разработка и испытание нового валкового сепаратора ПВМ на постоянных магнитах для мокрого обогащения слабомагнитных руд
+							</h1>
+					</header>
+					<div class="eventImg">
+						<img src="img/mag5.jpg" alt="">
+					</div>
+					<span class="eventDate">25.09.2019-70.25.1236</span>
+					<span class="eventCity">Москва</span>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ratione incidunt eum, sit nam distinctio consectetur similique dolor, neque? Culpa vitae modi quasi, eos alias totam ullam reprehenderit praesentium amet sequi laudantium sit tempore, pariatur quo quibusdam! Facilis, atque, perferendis.
+					</p>
+
+					<div class="em-location-map-container">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468.8864585268061!2d92.95844939375947!3d56.011529368712125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7a55dfe9d07cd%3A0xdbf0cd0992fff17!2z0YPQuy4g0JzQuNGH0YPRgNC40L3QsCwgM9CSLCDQmtGA0LDRgdC90L7Rj9GA0YHQuiwg0JrRgNCw0YHQvdC-0Y_RgNGB0LrQuNC5INC60YDQsNC5LCA2NjAwNjg!5e0!3m2!1sru!2sru!4v1552291445767" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ratione incidunt eum, sit nam distinctio consectetur similique dolor, neque? Culpa vitae modi quasi, eos alias totam ullam reprehenderit praesentium amet sequi laudantium sit tempore, pariatur quo quibusdam! Facilis, atque, perferendis.
+					</p>
+					<footer class="singleArticle__ft">
+							<div class="sharing">
+								<span class="sharing__explanation">Поделиться</span>
+								<a href="#" class="sharing__item vk">
+									<svg>
+										<use xlink:href="svgsprite.svg#vk_logo"></use>
+									</svg>
+								</a>
+								<a href="#" class="sharing__item fb">
+									<svg>
+										<use xlink:href="svgsprite.svg#fb_logo"></use>
+									</svg>
+								</a>
+								<a href="#" class="sharing__item od">
+									<svg>
+										<use xlink:href="svgsprite.svg#classmates_logo"></use>
+									</svg>
+								</a>
+								<a href="#" class="sharing__item pocket">
+									<svg>
+										<use xlink:href="svgsprite.svg#pocket_logo"></use>
+									</svg>
+								</a>
+								<a href="#" class="sharing__item telegram">
+									<svg>
+										<use xlink:href="svgsprite.svg#telegram_logo"></use>
+									</svg>
+								</a>
+								<a href="#" class="sharing__item viber">
+									<svg>
+										<use xlink:href="svgsprite.svg#viber_logo"></use>
+									</svg>
+								</a>
+								<a href="#" class="sharing__item wApp">
+									<svg>
+										<use xlink:href="svgsprite.svg#wApp_logo"></use>
+									</svg>
+								</a>
+							</div>
+						</footer>
+						<div class="hrBnr">
+							<a href="#" class="hrBnr__anchor">
+								<img src="https://picsum.photos/800/150/?random" alt="myImg" class="hrBnr__img">
+							</a>
+						</div>
+				</article>
+
+					<div class="comments">
+						<input type="radio" class="comments__radio" name="comment" id="fbComment" checked><label for="fbComment" class="comments__cmntTgl">Комментировать FB</label>
+						<input type="radio"  class="comments__radio" name="comment" id="vkComment"><label for="vkComment" class="comments__cmntTgl">Комментировать VK</label>
+						<div class="comments__commentTab" id="blockFb">
+							<img src="img/vkComment.JPG " alt="">
+						</div>
+						<div class="comments__commentTab" id="blockVk">
+							<img src="img/vkComment.JPG" alt="">
+						</div>
+					</div>
+				</main>
+				<div class="sidebar-right">
+					<div class="foxy">
+						<a href="#">
+							<img src="https://picsum.photos/250/400/?random" alt="">
+						</a>
+					</div><div class="foxy">
+						<a href="#">
+							<img src="https://picsum.photos/250/400/?random" alt="">
+						</a>
+					</div>
+					<div class="widget_categories">
+						<h3 class="widgettitle sidebar_title">
+							Список категорий
+						</h3>
+						<ul>
+							<li class="cat-item current-cat"><a href="#">Техника</a></li>
+							<li class="cat-item"><a href="category.html">Нефть</a></li>
+							<li class="cat-item"><a href="#">Металлы и руды</a></li>
+							<li class="cat-item"><a href="#">Разведка</a></li>
+							<li class="cat-item"><a href="#">Химия</a></li>
+							<li class="cat-item"><a href="#">Минералы</a></li>
+							<li class="cat-item"><a href="#">Уголь</a></li>
+							<li class="cat-item"><a href="#">Нефтегаз</a></li>
+						</ul>
+					</div>
+					<div class="holdIt"></div>
+					<div class="widget_media_image">
+						<a href="#">
+							<img src="https://picsum.photos/250/125/?random" alt="" class="image">
+						</a>
+					</div>
+					<div class="widget_media_image">
+						<a href="#">
+							<img src="https://picsum.photos/250/125/?random" alt="" class="image">
+						</a>
+					</div>
+					<div class="widget_media_image">
+						<a href="#">
+							<img src="https://picsum.photos/250/125/?random" alt="" class="image">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="archive">
+			<section class="archive__wrapper">
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag13.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag11.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag1.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag3.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag4.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag5.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag6.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag7.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="img/mag8.jpg" alt="" class="archive__img">
+					</a>
+				</div>
+				<div class="archive__item">
+					<a href="#" class="archive__link">
+						<img src="https://picsum.photos/300/400/?random" alt="" class="archive__img">
+					</a>
+				</div>
+			</section>
+		</div>
+		<div class="sector2">
+			<div class="sector2row">
+				<div class="bottomSidebarLeft">
+					<div class="widget_media_image">
+						<a href="#">
+							<img src="https://picsum.photos/250/125/?random" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="tileWrapper">
+					<div class="tileNews">
+						<div class="tileNews__item">
+							<a href="#" class="tileNews__info">
+								<img src="https://picsum.photos/300/200/?random" alt="" class="tileNews__img">
+								<span class="tileNews__title">Lorem ipsum dolor sit amet, consectetur. Shvah!</span>
+							</a>
+							<a href="#" class="tileNews__heading">Металлы и руды</a>
+						</div>	
+						<div class="tileNews__item">
+							<a href="#" class="tileNews__info">
+								<img src="https://picsum.photos/300/200/?random" alt="" class="tileNews__img">
+								<span class="tileNews__title">Lorem ipsum dolor sit amet, consectetur. Shvah!</span>
+							</a>
+							<a href="#" class="tileNews__heading">Металлы и руды</a>
+						</div>	
+						<div class="tileNews__item">
+							<a href="#" class="tileNews__info">
+								<img src="https://picsum.photos/300/200/?random" alt="" class="tileNews__img">
+								<span class="tileNews__title">Lorem ipsum dolor sit amet, consectetur. Shvah!</span>
+							</a>
+							<a href="#" class="tileNews__heading">Металлы и руды</a>
+						</div>	
+						<div class="tileNews__item">
+							<a href="#" class="tileNews__info">
+								<img src="https://picsum.photos/300/200/?random" alt="" class="tileNews__img">
+								<span class="tileNews__title">Lorem ipsum dolor sit amet, consectetur. Shvah!</span>
+							</a>
+							<a href="#" class="tileNews__heading">Металлы и руды</a>
+						</div>	
+						<div class="tileNews__item">
+							<a href="#" class="tileNews__info">
+								<img src="https://picsum.photos/300/200/?random" alt="" class="tileNews__img">
+								<span class="tileNews__title">Lorem ipsum dolor sit amet, consectetur. Shvah!</span>
+							</a>
+							<a href="#" class="tileNews__heading">Металлы и руды</a>
+						</div>	
+						<div class="tileNews__item">
+							<a href="#" class="tileNews__info">
+								<img src="https://picsum.photos/300/200/?random" alt="" class="tileNews__img">
+								<span class="tileNews__title">Lorem ipsum dolor sit amet, consectetur. Shvah!</span>
+							</a>
+							<a href="#" class="tileNews__heading">Металлы и руды</a>
+						</div>		
+					</div>
+				</div>
+				<div class="bottomSidebarRight">
+					<div class="widget_media_image">
+						<a href="#">
+							<img src="https://picsum.photos/250/125/?random" alt="">
+						</a>
+					</div>
+					<div class="widget_media_image">
+						<a href="#">
+							<img src="https://picsum.photos/250/125/?random" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="dpFooter">
+		<div class="wrapper">
+			<div class="interactive">
+				<a href="#" class="interactive__sbscr">Подписаться</a>
+				<div class="interactive__social">
+					<span class="interactive__text">Мы в социальных сетях</span>
+					<ul class="interactive__list">
+						<li><a href="#">Вконтакте</a></li>
+						<li><a href="#">Facebook</a></li>
+					</ul>
+				</div>
+				<div class="interactive__list">
+					<span class="interactive__text">Правила</span>
+					<ul class="interactive__list">
+						<li>
+							<a href="#">Обработка данных</a>
+						</li>
+						<li>
+							<a href="#">Пользовательское соглашение</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+				<span class="copyright__title">&copy; ООО "ПромоГрупп Медиа", 2016-2019</span>
+				<span class="copyright__text">
+					Копирование материалов запрещено.
+				</span>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
