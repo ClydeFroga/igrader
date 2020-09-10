@@ -3,17 +3,17 @@
 
 * {
   font-size: 16px;
-  font-family: "Acrobat", sans-serif;
+  font-family: "Acrobat Light", sans-serif;
   font-weight: 400;
 }
 
 html {
   a {
-    color: black;
+    color: #24363c;
   }
   a:hover {
     text-decoration: none;
-    color: black;
+    color: #24363c;
   }
 }
 
@@ -30,9 +30,6 @@ img {
   }
 }
 
-
-
-
 @import "blocks/header";
 @import "blocks/swipers";
 @import "blocks/wrapper";
@@ -42,3 +39,11 @@ img {
 @import "blocks/news";
 @import "blocks/aside";
 @import "blocks/botNews";
+@import "blocks/single";
+@import "blocks/kratko";
+@import "blocks/lane";
+@import "blocks/archive";
+@import "blocks/sharing";
+@import "blocks/reklama";
+@import "blocks/cookie";
+@import "blocks/animation";

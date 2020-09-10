@@ -8,9 +8,10 @@
     max-width: 100%;
     border-bottom: 2px solid $footerBack;
     margin-bottom: 1rem;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
     text-transform: uppercase;
     a {
+      font-weight: 700;
       padding: 10px 30px 8px 30px;
       color: white;
       background-color: $footerBack;
@@ -23,16 +24,21 @@
   &__span {
     font-size: 14px;
     padding-top: 5px;
+    font-family: 'Roboto Regular', sans-serif;
+    margin: 0;
   }
   &__spanBot {
     padding-top: 5px;
+    font-family: 'Roboto Regular', sans-serif;
   }
 
   &__blockFull {
     .field__botText {
-      margin-top: .7rem;
+
+      margin-top: 0;
     }
   }
+
 
   &__block {
     > .field__imgBlc, .field__imgBlcBig {
@@ -66,6 +72,10 @@
     }
   }
   &__four {
+    .serv {
+      margin: 0;
+      font-size: .82rem;
+    }
     a {
       margin-bottom: 1rem;
     }
@@ -78,6 +88,9 @@
   padding-bottom: 3.5rem;
   .bigTitle {
     padding: 2rem 15px 1rem 15px;
+  }
+  .bigTitle a {
+
     font-size: 65px;
     color: #778181;
     text-transform: uppercase;
@@ -95,13 +108,15 @@
 
 .field__text {
   bottom: 0;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 700;
 }
 .field__textTop {
   top: 0;
 }
 .field__text, .field__textTop {
-  font-family: "Roboto Light", sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   display: block;
   position: absolute;
   z-index: 10;
@@ -116,9 +131,52 @@
   margin: 0;
 }
 
+.Sw-text {
+  p {
+    font-family: "Roboto Regular", sans-serif;
+  }
+}
+
+.textMiddle {
+  font-size: 18px;
+  font-weight: 400;
+  //font-family: 'Acrobat extra light', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .field__blockFull {
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 992px) {
   .big .bigTitle {
     padding-bottom: 0;
     font-size: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .field {
+    &__four {
+      margin: 0;
+      a {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid rgba(143,158,164,.8);
+        padding: 0 0 .5rem 0;
+        img {
+          width: 100px;
+          height: 75px;
+        }
+        p {
+          padding-left: .5rem;
+          margin: 0;
+          font-weight: 300;
+          font-size: .95rem;
+        }
+      }
+    }
   }
 }

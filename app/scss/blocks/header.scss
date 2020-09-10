@@ -13,6 +13,7 @@
     transition: .3s;
   }
   .dropdown-menu {
+    display: none;
     border: none;
     background-color: $footerBack;
     a {
@@ -20,7 +21,7 @@
       font-family: "Roboto Regular", sans-serif;
       transition: .3s;
     }
-    a:hover {
+    a:hover, a:active, a:focus {
       background-color: $footerBack;
       color: #aaa;
       transition: .3s;
@@ -62,9 +63,17 @@
     }
     a.nav-link.active {
       color: black;
-      background-color: #ff9900;
+      background-color: darken(#dde5e8, 10%);
       border: none;
       border-radius: 0;
+      padding-bottom: 7px;
+    }
+    a.nav-link.read:after {
+      content: '';
+      border: 3px solid #ff9900;
+      border-radius: 25px;
+      top: 6px;
+      position: absolute;
     }
     li.show a {
       color: black !important;
@@ -73,18 +82,17 @@
 
     .bot_dropdown {
       background-color: #dde5e8;
+      a {
+        color: black;
+      }
+      a:hover {
+        color: black;
+        background-color: #dde5e8;
+      }
     }
   }
 }
 
-.modal-search {
-  display: flex;
-  flex-direction: row;
-  button {
-    background-color: $footerBack;
-    color: white;
-  }
-}
 
 @media (max-width: 992px) {
   .graderHeader {
@@ -122,13 +130,45 @@
   }
 }
 
+.searchBlock {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+  background-color: rgba(0,0,0,0.4);
+  .input-group {
+    margin: 15% auto;
+    width: 40%;
+    .form-control {
+      height: 70px;
+    }
+    .btn {
+      background-color: #24363c;
+      color: white;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .graderHeader {
     .searchIcon {
-      right: 63px;
+      top: 13px;
+      right: 80px;
+      padding: .25rem .75rem;
     }
     .collapsed-cont {
       padding-left: 15px;
+    }
+  }
+  .searchBlock {
+    .input-group {
+      margin: 40% auto;
+      width: 80%;
     }
   }
 }

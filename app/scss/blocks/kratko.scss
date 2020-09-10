@@ -1,0 +1,39 @@
+.kratko {
+   > .col {
+    margin-bottom: 1rem;
+     display: flex;
+     flex-direction: column;
+  }
+  &__imgBlc {
+    position: relative;
+    padding-top: 56.6%;
+    overflow: hidden;
+  }
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: grayscale(.7);
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 5px;
+    background-color: rgba(211,220,223,.5);
+    color: #0c2027;
+    height: 100%;
+
+  }
+  &__date, &__cat {
+    font-size: 12px;
+    color: #0c2027;;
+  }
+  &__title {
+    font-size: 1.05em;
+    font-weight: 700;
+    margin: 0;
+  }
+  &__cat {
+  margin-top: auto;
+  }
+}

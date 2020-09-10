@@ -1,6 +1,9 @@
 .news {
   &__one {
     margin-bottom: 2rem;
+    :first-child {
+      margin-bottom: .5rem;
+    }
   }
   &__cat {
     background-color: $footerBack;
@@ -9,6 +12,9 @@
     text-transform: uppercase;
     font-size: 13px;
     margin-right: 10px;
+  }
+  &__cat:hover {
+    color: white;
   }
   &__date {
     font-size: 13px;
@@ -32,6 +38,28 @@
       margin-right: 7px;
       color: rgba(115,134,141,.8);
       font-size: 14px;
+    }
+  }
+}
+.loadmore {
+  width: 100%;
+  background-color: $footerBack;
+  color: white;
+  border: none;
+  padding: .5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  .news {
+    &__excerpt {
+      display: none;
+    }
+    &__one {
+      :first-child {
+        margin-bottom: .5rem;
+      }
     }
   }
 }
