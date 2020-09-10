@@ -1,19 +1,19 @@
-//.page-enter-active {
-//  animation: focus-in-expand 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-//}
-//
-//.page-leave-active {
-//  animation: focus-in-expand 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
-//}
-//
-//
-//@keyframes focus-in-expand {
-//  0% {
-//    filter: blur(2px);
-//    opacity: 0;
-//  }
-//  100% {
-//    filter: blur(0px);
-//    opacity: 1;
-//  }
-//}
+.page-enter-active {
+  animation: focus-in-expand 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.page-leave-active {
+  animation: focus-in-expand 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
+}
+
+
+@keyframes focus-in-expand {
+  0% {
+    filter: blur(2px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}

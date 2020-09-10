@@ -57,9 +57,11 @@
       border: none;
     }
     a:hover {
-      background-color: #dde5e8;
+      background-color: darken(#dde5e8, 10%);
       border: none;
       color: black;
+      border-radius: 0;
+      padding-bottom: 7px;
     }
     a.nav-link.active {
       color: black;

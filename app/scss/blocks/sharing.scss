@@ -21,6 +21,14 @@
   }
 }
 
+.sharing__wrapper.static {
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  .sharing__item {
+    margin-right: 1rem;
+  }
+}
+
 @media all and(max-width: 992px) {
  .sharing {
    &__wrapper {

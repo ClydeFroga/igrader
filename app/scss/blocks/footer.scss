@@ -1,4 +1,7 @@
 footer {
+  * {
+    font-family: 'Roboto Regular', sans-serif;
+  }
   margin-top: 50px;
   padding: 20px 0;
   background-color: $footerBack;
@@ -11,7 +14,7 @@ footer {
       margin-bottom: 1rem;
       a {
         color: white;
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         margin-right: 10px;
       }
     }
