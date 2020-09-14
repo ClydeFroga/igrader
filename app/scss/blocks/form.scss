@@ -1,0 +1,71 @@
+.sp-force-hide {
+  display: none;
+}
+.sp-form[sp-id="143557"] {
+  display: block;
+  background: rgba(255, 255, 255, 1);
+  padding: 5px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0px;
+  border-color: #254550;
+  border-style: solid;
+  border-width: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  margin-bottom: 1.5em;
+}
+.sp-form[sp-id="143557"] input[type="checkbox"] {
+  display: inline-block;
+  opacity: 1;
+  visibility: visible;
+}
+.sp-form[sp-id="143557"] .sp-form-fields-wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+.sp-form[sp-id="143557"] .sp-form-control {
+  background: #ffffff;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 15px;
+  padding-left: 8.75px;
+  padding-right: 8.75px;
+  border-radius: 0px;
+  height: 35px;
+  width: 100%;
+}
+.sp-form[sp-id="143557"] .sp-field {
+  padding: 8px;
+  position: relative;
+}
+.sp-form[sp-id="143557"] .sp-field label {
+  color: #444444;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: bold;
+}
+.sp-form[sp-id="143557"] .sp-button {
+  border-radius: 0px;
+  background-color: #254550;
+  color: #ffffff;
+  width: 133px;
+  font-weight: 700;
+  font-style: normal;
+  box-shadow: inset 0 -2px 0 0 #122126;
+  border: none;
+  padding: 0 17.5px 0 17.5px;
+  height: 35px;
+}
+.sp-form[sp-id="143557"] .sp-button-container {
+  text-align: center;
+  width: auto;
+}
+.sp-control-label .req {
+  position: absolute;
+  right: 15px;
+  bottom: 25%;
+  color: red;
+}
