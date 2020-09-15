@@ -69,3 +69,34 @@
   bottom: 25%;
   color: red;
 }
+
+.wpcf7 {
+  .formTitle {
+    text-align: center;
+  }
+  .wpcf7-submit {
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: #24363c;
+    color: white;
+  }
+  form {
+    .formA {
+      text-decoration: none;
+      border-bottom: 1px dashed #24363c;
+    }
+    .formA:hover {
+
+      border-bottom: none;
+    }
+    .topDesc {
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 1.3rem;
+    }
+  }
+}

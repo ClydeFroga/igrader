@@ -30,18 +30,28 @@
     }
   }
   &__text {
+    .wp-polls {
+      margin-bottom: 2rem;
+    }
     .wp-polls-loading {
       display: none;
     }
     .wp-polls-ul {
+      strong {
+        i {
+          font-size: 1.2rem;
+          font-weight: 600;
+        }
+      }
       list-style-type: none;
       padding-left: 0;
       p {
         margin-bottom: 0;
       }
-      .res__bar {
+      .res__bar, .pollbar {
         background: #88c6e8;
         margin-bottom: .7rem;
+        height: 15px;
       }
       .res__res, .res__name {
         color: #3f4e55;
@@ -78,6 +88,12 @@
       margin-bottom: 1em;
       font-weight: 600;
     }
+    h5 {
+      font-size: 1.3em;
+      color: #1d2953;
+      margin-bottom: 1em;
+      font-weight: 600;
+    }
     a {
       color: #062b33;
       text-decoration: underline;
@@ -100,11 +116,13 @@
     ul{
       padding-left: 15px;
       li {
+        font-size: 1.2rem;
         padding-left: 1rem;
       }
     }
     ol {
       li {
+        font-size: 1.2rem;
         padding-left: 1rem;
         margin-bottom: .5rem;
       }
@@ -116,14 +134,4 @@
   }
 }
 
-.wpcf7 {
-  max-width: 400px;
-  p {
-    margin-bottom: .5rem;
-  }
-  .wpcf7-submit {
-    margin-top: 1rem;
-    background-color: #dde5e8;
-  }
-}
 
