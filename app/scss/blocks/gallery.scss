@@ -1,0 +1,9 @@
+.rl-gallery {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 10px;
+}
+.rl-gallery-item {
+  max-width: 150px;
+}
