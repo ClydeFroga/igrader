@@ -4,11 +4,14 @@
     margin-bottom: 1rem;
     font-family: "Roboto Medium", sans-serif;
     color: #0b1538;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+  }
+  &__date, &__breadcrumbs a {
+    font-family: "Roboto Regular", sans-serif;
   }
   &__date, &__breadcrumbs a, span {
     color: rgba(115,134,141,.8);
-    font-size: .9rem;
+    font-size: .8rem;
   }
   &__separator {
     margin: 0 1rem;

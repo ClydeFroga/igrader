@@ -12,6 +12,18 @@
     color: #aaa;
     transition: .3s;
   }
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+  .top_drop {
+    .dropdown-item.active {
+      background-color: $hoverLinks;
+    }
+    .dropdown-item.active:hover {
+      background-color: $hoverLinks;
+      color: black;
+    }
+  }
   .dropdown-menu {
     display: none;
     border: none;
@@ -86,10 +98,14 @@
       background-color: #dde5e8;
       a {
         color: black;
+        font-family: "Roboto Medium", sans-serif;
+        font-size: 14px;
+        text-transform: uppercase;
       }
       a:hover {
+        padding-bottom: 4px;
         color: black;
-        background-color: #dde5e8;
+        background-color: #bfced3;
       }
     }
   }
