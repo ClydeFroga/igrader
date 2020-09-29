@@ -41,6 +41,7 @@
   }
 
   .searchIcon{
+
     height: 20px;
     right:173px;
     margin-bottom: 10px;
@@ -125,6 +126,7 @@
       }
     }
     .searchIcon {
+
       position: absolute;
     }
     .nav-tabs {
@@ -159,6 +161,7 @@
   overflow: hidden;
   margin: auto;
   background-color: rgba(0,0,0,0.4);
+  opacity: 0;
   .input-group {
     margin: 15% auto;
     width: 40%;

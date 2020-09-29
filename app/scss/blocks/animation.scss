@@ -6,6 +6,25 @@
   animation: focus-in-expand 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
 }
 
+.poisk-enter-active {
+    animation: puff-in-center 0.4s ease-in both;
+}
+
+@keyframes puff-in-center {
+  0% {
+    transform: scale(2);
+    filter: blur(4px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+
 
 @keyframes focus-in-expand {
   0% {
