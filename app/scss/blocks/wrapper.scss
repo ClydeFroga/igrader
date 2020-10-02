@@ -42,7 +42,7 @@
   }
   &__title.title-top {
     margin-bottom: 1.5rem;
-    font-weight: 700;
+    font-family: 'Roboto Bold',sans-serif;
   }
   &__topCol {
     display: flex;
@@ -132,7 +132,7 @@
     strong {
       color: #24363c;
       font-size: 1.3rem;
-      font-family: "Acrobat", sans-serif;
+      font-family: "Roboto Regular", sans-serif;
       font-weight: 700;
     }
     p {

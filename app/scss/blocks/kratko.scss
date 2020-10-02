@@ -29,9 +29,10 @@
     color: #0c2027;;
   }
   &__title {
-    font-size: 1.05em;
-    font-weight: 700;
-    margin: 0;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 1.00em;
+    margin: 8px 0;
+    line-height: 1.4rem;
   }
   &__cat {
   margin-top: auto;

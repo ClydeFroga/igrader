@@ -11,7 +11,8 @@
     padding-bottom: 3px;
     text-transform: uppercase;
     a {
-      font-weight: 700;
+      font-family: 'Roboto Regular',sans-serif;
+      font-size: 14px;
       padding: 10px 30px 8px 30px;
       color: white;
       background-color: $footerBack;
@@ -110,13 +111,12 @@
   bottom: 0;
   font-size: 22px;
   line-height: 30px;
-  font-weight: 700;
 }
 .field__textTop {
   top: 0;
 }
 .field__text, .field__textTop {
-  font-size: 1.3rem;
+  font-size: 1rem;
   display: block;
   position: absolute;
   z-index: 10;
@@ -138,9 +138,8 @@
 }
 
 .textMiddle {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 400;
-  //font-family: 'Acrobat extra light', sans-serif;
 }
 
 @media (min-width: 1200px) {

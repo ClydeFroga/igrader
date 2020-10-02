@@ -12,10 +12,14 @@
     }
     &__text {
       color: #254d5c;
-      font-size: 1rem;
-      font-weight: 700;
+      font-size: .9rem;
       padding-right: 10px;
+      //transition: .3s;
     }
+    //&__text:hover {
+    //  color: #254d5c;
+    //  transition: .3s;
+    //}
   }
 
 
