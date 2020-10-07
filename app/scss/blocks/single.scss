@@ -33,6 +33,12 @@
     }
   }
   &__text {
+    figure {
+      cursor: pointer;
+    }
+    .wp-block-image a {
+      pointer-events: none;
+    }
     .has-background {
       text-align: center;
       padding: 1rem 0.5rem;
@@ -370,7 +376,25 @@
     }
   }
 }
-
+.modalForImg {
+  display: none;
+  position: fixed;
+  z-index: 40;
+  margin: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+  img {
+    max-width: 80%;
+    display: flex;
+    height: auto;
+    margin: auto;
+    width: auto;
+  }
+}
 .singleSticky {
   &__text {
     font-size: 1.1rem;
