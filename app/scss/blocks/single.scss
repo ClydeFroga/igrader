@@ -21,6 +21,9 @@
     padding-bottom: .2rem;
   }
   &__main {
+    figure {
+      cursor: pointer;
+    }
     margin-top: 2rem;
     > img {
       margin-bottom: 1rem;
@@ -387,6 +390,25 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0,0,0,0.8);
+  > div {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    .bi-arrow-left-short, .bi-arrow-right-short {
+      position: absolute;
+      z-index: 41;
+      top: 45%;
+      fill: white;
+      cursor: pointer;
+    }
+    .bi-arrow-left-short {
+      left: 0;
+    }
+    .bi-arrow-right-short {
+      right: 0;
+    }
+  }
   img {
     max-width: 80%;
     display: flex;
