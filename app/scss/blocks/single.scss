@@ -1,4 +1,25 @@
 .single {
+  .dateAndTime {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(115,134,141,.8);
+    padding-bottom: .2rem;
+  }
+  .writer {
+    color: rgba(37,77,92,.7);
+    font-size: .8em;
+    font-weight: 400;
+    padding: 0 5px 0 0;
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 1rem;
+    a {
+      color: rgba(11,21,56,.8);
+      font-size: 1em;
+      padding: 0 5px 0 0;
+      font-style: italic;
+    }
+  }
   &__title {
     //font-weight: 800;
     margin-bottom: 1rem;
@@ -15,10 +36,6 @@
   }
   &__separator {
     margin: 0 1rem;
-  }
-  &__date {
-    border-bottom: 1px solid rgba(115,134,141,.8);
-    padding-bottom: .2rem;
   }
   &__main {
     figure {
@@ -377,6 +394,10 @@
         margin: 0 auto;
       }
     }
+    table, th, td {
+      border: 1px solid black;
+      padding-left: 0.5rem;
+    }
   }
 }
 .modalForImg {
@@ -395,6 +416,15 @@
     display: flex;
     width: 100%;
     height: auto;
+    > div {
+      display: flex;
+      position: absolute;
+      left: 49%;
+      top: 5%;
+      > span {
+        color: white;
+      }
+    }
     .bi-arrow-left-short, .bi-arrow-right-short {
       position: absolute;
       z-index: 41;
@@ -433,5 +463,13 @@
     text-transform: uppercase;
     margin: 0;
     bottom: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .singleSticky {
+    &__text {
+      text-transform: none;
+    }
   }
 }
