@@ -53,6 +53,14 @@
     }
   }
   &__text {
+    .wp-block-table {
+      overflow-x: auto;
+    }
+    iframe {
+      width: 100%;
+      max-width: 100%;
+    }
+
     figure {
       cursor: pointer;
     }
@@ -60,7 +68,7 @@
       pointer-events: none;
     }
     .has-background {
-      text-align: center;
+
       padding: 1rem 0.5rem;
     }
 
@@ -385,7 +393,7 @@
       padding-left: 1.5em;
     }
     em {
-      font-family: 'Akrobat Light', sans-serif;
+      font-family: 'Roboto Regular', sans-serif;
     }
     .aligncenter {
       margin-bottom: 1rem;
