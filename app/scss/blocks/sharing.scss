@@ -5,6 +5,7 @@
   padding-left: 10px;
   margin-top:1.8em;
   &__wrapper{
+    flex-wrap: wrap;
     display:flex;
     flex-direction: column;
     position:sticky;

@@ -48,3 +48,13 @@ footer {
     margin-bottom: 5px;
   }
 }
+
+@media (max-width: 360px) {
+  footer {
+    .foote {
+      &__gray {
+        font-size: .6rem;
+      }
+    }
+  }
+}

@@ -42,7 +42,8 @@ function styles() {
       cleancss({ level: { 1: { specialComments: 0 } }, /*format: "beautify"*/ })
     )
       // .pipe(dest("app"))
-	.pipe(dest("../../../../../xampp5.6/htdocs/nuxtGrader/grader/assets"))  // выгрузка
+    .pipe(dest("C:\\Users\\hahle\\OneDrive\\Documents\\code\\grader\\assets"))
+	// .pipe(dest("../../../../../xampp5.6/htdocs/nuxtGrader/grader/assets"))  // выгрузка
 	// .pipe(dest("../../../../../xampp5.6/htdocs/igrader/wp-content/themes/igrader"))  // выгрузка
     .pipe(browserSync.stream());
 }
