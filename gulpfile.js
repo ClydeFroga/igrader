@@ -1,4 +1,4 @@
-let preprocessor = "scss";
+let preprocessor = "less";
 
 const { src, dest, parallel, series, watch } = require("gulp");
 const browserSync = require("browser-sync").create();
@@ -42,9 +42,9 @@ function styles() {
       cleancss({ level: { 1: { specialComments: 0 } }, /*format: "beautify"*/ })
     )
       // .pipe(dest("app"))
-    .pipe(dest("C:\\Users\\hahle\\OneDrive\\Documents\\code\\grader\\assets"))
+    // .pipe(dest("C:\\Users\\hahle\\OneDrive\\Documents\\code\\grader\\assets"))
 	// .pipe(dest("../../../../../xampp5.6/htdocs/nuxtGrader/grader/assets"))  // выгрузка
-	// .pipe(dest("../../../../../xampp5.6/htdocs/igrader/wp-content/themes/igrader"))  // выгрузка
+	.pipe(dest("C:\\xampp\\htdocs\\igrader\\wp-content\\themes\\igrader"))  // выгрузка
     .pipe(browserSync.stream());
 }
 

@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ee9735a5-4714-48b7-9842-97d837ab7157" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/scss/blocks/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/blocks/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/blocks/sharing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/blocks/sharing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/less/modalForImg.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/less/notification.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/less/progress.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/less/foxy.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/less/foxy.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/less/headers.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/less/headers.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/less/metaData.less" beforeDir="false" afterPath="$PROJECT_DIR$/app/less/metaData.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/blocks/news.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/blocks/news.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/blocks/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/blocks/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +40,18 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Less File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jwjwoPIBb5lA4hCQqmguZb3Fvz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +60,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -37,10 +73,46 @@
       <option name="presentableId" value="Default" />
       <updated>1604722289184</updated>
       <workItem from="1604722290239" duration="12000" />
+      <workItem from="1605162773328" duration="799000" />
+      <workItem from="1605594912171" duration="1393000" />
+      <workItem from="1605682802932" duration="876000" />
+      <workItem from="1605692800115" duration="8000" />
+      <workItem from="1605692825606" duration="149000" />
+      <workItem from="1605693112790" duration="17000" />
+      <workItem from="1605693138355" duration="160000" />
+      <workItem from="1605693330447" duration="1507000" />
+      <workItem from="1605756614378" duration="2011000" />
+      <workItem from="1605771395374" duration="245000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="1355" key="FileChooserDialogImpl" timestamp="1605692974371">
+      <screen x="0" y="1080" width="1920" height="1040" />
+    </state>
+    <state x="740" y="1355" key="FileChooserDialogImpl/0.1080.1920.1040/0.0.1920.1040@0.1080.1920.1040" timestamp="1605692974371" />
+    <state x="667" y="1333" width="585" height="534" key="find.popup" timestamp="1605771592437">
+      <screen x="0" y="1080" width="1920" height="1040" />
+    </state>
+    <state x="667" y="1333" width="585" height="534" key="find.popup/0.1080.1920.1040/0.0.1920.1040@0.1080.1920.1040" timestamp="1605771592437" />
+    <state x="616" y="780" key="run.anything.popup" timestamp="1605692893744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="780" key="run.anything.popup/0.1080.1920.1040/0.0.1920.1040@0.1080.1920.1040" timestamp="1605692893744" />
   </component>
 </project>

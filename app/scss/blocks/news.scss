@@ -55,20 +55,17 @@
   margin-top: 32px;
 }
 .sticky.stickyKratko {
-  border: 2px solid $hoverLinks;
+  border: 2px solid #FF9900;
   box-shadow: inset 0 0 6px 4px rgba(0,0,0,0.31);
   margin-bottom: 2rem;
   .wrapper__botCol {
     padding: 15px 0;
-    .col div {
-      //box-shadow: 0px 0px 6px 4px rgba(0,0,0,0.31);
-    }
   }
 }
 .sticky.stickyNews {
-  border-top: 3px solid orange;
+  border-top: 3px solid #FF9900;
   padding-top: 10px;
-  border-bottom: 3px solid orange;
+  border-bottom: 3px solid #FF9900;
   margin: 2rem 15px 0 15px;
 }
 
