@@ -3,15 +3,18 @@
 	max-width: 640px;
 }
 
+.loadNews {
+	margin-top: 120px;
+}
+
 .singleArticle{
 	display:flex;
 	flex-grow: 5;
 	box-sizing: border-box;
-  .loadNews {
-    margin-top: 120px;
-  }
-
-
+	//flex-direction: column;
+	&.column {
+		flex-direction: column;
+	}
   & h1, .seriesTitle{
 		display: block;
 		font-family: 'Roboto', sans-serif;
@@ -228,6 +231,7 @@
 		width:100%;
 	}
 }
+
 @media all and(max-width:576px){
 	.singleArticle{
 		display: block;

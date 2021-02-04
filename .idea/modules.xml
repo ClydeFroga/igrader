@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/.idea/dprom3.iml" filepath="$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/.idea/dprom3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dpromGulp/.idea/dpromGulp.iml" filepath="$PROJECT_DIR$/../dpromGulp/.idea/dpromGulp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../leskGulp/.idea/first.iml" filepath="$PROJECT_DIR$/../leskGulp/.idea/first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/.idea/forest.iml" filepath="$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/.idea/forest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../../xampp/htdocs/igrader/wp-content/themes/igrader/.idea/igrader.iml" filepath="$PROJECT_DIR$/../../../../../xampp/htdocs/igrader/wp-content/themes/igrader/.idea/igrader.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/igraderGulp.iml" filepath="$PROJECT_DIR$/.idea/igraderGulp.iml" />
     </modules>
   </component>

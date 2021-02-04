@@ -4,5 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="dpromGulp" />
+    <orderEntry type="module" module-name="first" />
+    <orderEntry type="module" module-name="igrader" />
+    <orderEntry type="module" module-name="dprom3" />
+    <orderEntry type="module" module-name="forest" />
   </component>
 </module>

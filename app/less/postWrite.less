@@ -1,0 +1,40 @@
+.postWrite {
+  margin-bottom: 30px;
+  min-height: 820px;
+  &__blc {
+    a {
+
+    }
+  }
+  .acf-input-prepend {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    z-index: 5;
+  }
+  .acf-is-prepended {
+    padding-left: 20px !important;
+  }
+  input[type='text'] {
+    width: 100%;
+    padding: 1em .5em;
+    border: 1px solid #c8c8c8;
+    &:hover, &:focus {
+      border-color: #24363c ;
+    }
+  }
+  .acf-button {
+    border: none;
+    padding: 5px 25px;
+    background-color: #24363c;
+    color: white;
+    margin-left: 12px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .postWrite {
+    min-height: unset;
+  }
+}

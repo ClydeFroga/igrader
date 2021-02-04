@@ -44,11 +44,35 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Less File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../leskGulp" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+    <layout place="tools.popupGulp">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="ProjectId" id="1jwjwoPIBb5lA4hCQqmguZb3Fvz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,12 +81,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/img" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\hahlek\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\lesk\wp-content\themes\forest\img" />
+      <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\sass\blocks" />
+      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3" />
+      <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\igrader\wp-content\themes\igrader\js" />
+      <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\html\img" />
+      <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\html\js" />
+      <recent name="C:\xampp\htdocs\lesk\wp-content\themes\forest\includes" />
+      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3\includes" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +131,35 @@
       <workItem from="1605693330447" duration="1507000" />
       <workItem from="1605756614378" duration="2011000" />
       <workItem from="1605771395374" duration="245000" />
+      <workItem from="1610325485158" duration="854000" />
+      <workItem from="1610328463536" duration="80000" />
+      <workItem from="1610328550327" duration="54000" />
+      <workItem from="1610328617931" duration="6000" />
+      <workItem from="1610328646314" duration="18000" />
+      <workItem from="1610329884019" duration="3469000" />
+      <workItem from="1610334416403" duration="13663000" />
+      <workItem from="1610417172701" duration="18346000" />
+      <workItem from="1610503350264" duration="4045000" />
+      <workItem from="1610508535458" duration="22015000" />
+      <workItem from="1610590364596" duration="21746000" />
+      <workItem from="1610675728512" duration="3367000" />
+      <workItem from="1610679356422" duration="15863000" />
+      <workItem from="1610934885267" duration="12421000" />
+      <workItem from="1610967799435" duration="284000" />
+      <workItem from="1611021485349" duration="4714000" />
+      <workItem from="1611107930814" duration="1694000" />
+      <workItem from="1611112874439" duration="1785000" />
+      <workItem from="1611135069432" duration="21882000" />
+      <workItem from="1611280712078" duration="20344000" />
+      <workItem from="1611541926288" duration="21472000" />
+      <workItem from="1611626685345" duration="21914000" />
+      <workItem from="1611712903948" duration="17638000" />
+      <workItem from="1611799154060" duration="22554000" />
+      <workItem from="1611885908783" duration="5822000" />
+      <workItem from="1612143530327" duration="23490000" />
+      <workItem from="1612231190068" duration="12399000" />
+      <workItem from="1612318260119" duration="7263000" />
+      <workItem from="1612400607476" duration="2077000" />
     </task>
     <servers />
   </component>
@@ -102,17 +179,48 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="1355" key="FileChooserDialogImpl" timestamp="1605692974371">
-      <screen x="0" y="1080" width="1920" height="1040" />
+    <state x="1318" y="533" width="759" height="333" key="#File_Watchers" timestamp="1610681208450">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="1318" y="533" width="759" height="333" key="#File_Watchers/0.0.3440.1400@0.0.3440.1400" timestamp="1610681208450" />
+    <state x="1245" y="490" width="662" height="679" key="EditFileWatcherDialog" timestamp="1611542604759">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1245" y="490" width="662" height="679" key="EditFileWatcherDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1611542604759" />
+    <state x="1166" y="472" key="FileChooserDialogImpl" timestamp="1610696218713">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1166" y="472" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1610696218713" />
     <state x="740" y="1355" key="FileChooserDialogImpl/0.1080.1920.1040/0.0.1920.1040@0.1080.1920.1040" timestamp="1605692974371" />
-    <state x="667" y="1333" width="585" height="534" key="find.popup" timestamp="1605771592437">
-      <screen x="0" y="1080" width="1920" height="1040" />
+    <state x="407" y="623" key="NewPhpFileDialog" timestamp="1612167389731">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="407" y="623" key="NewPhpFileDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1612167389731" />
+    <state x="921" y="424" key="SettingsEditor" timestamp="1611542605826">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="921" y="424" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1611542605826" />
+    <state x="1040" y="309" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611639096692">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1040" y="309" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1611639096692" />
+    <state x="1195" y="341" width="1049" height="719" key="find.popup" timestamp="1612404666753">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1195" y="341" width="1049" height="719" key="find.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1612404666753" />
     <state x="667" y="1333" width="585" height="534" key="find.popup/0.1080.1920.1040/0.0.1920.1040@0.1080.1920.1040" timestamp="1605771592437" />
-    <state x="616" y="780" key="run.anything.popup" timestamp="1605692893744">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1299" y="570" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1610679932202">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="1299" y="570" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.3440.1400@0.0.3440.1400" timestamp="1610679932202" />
+    <state x="1104" y="1050" key="run.anything.popup" timestamp="1610949655580">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1104" y="1050" key="run.anything.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1610949655580" />
     <state x="616" y="780" key="run.anything.popup/0.1080.1920.1040/0.0.1920.1040@0.1080.1920.1040" timestamp="1605692893744" />
+    <state x="1096" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1610679127851">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1096" y="320" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1610679127851" />
   </component>
 </project>
