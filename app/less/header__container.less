@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import "vars.less";
+
+.collapseAdditionalButton {
+  display: none;
+  background-color: #fafafa;
+  color: #C6C6C6;
+  font-size: 10px;
+  cursor: pointer;
+  &:before {
+    content:'';
+    width: 13px;
+    height: 13px;
+    background: url('img/closeNew.svg') no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    margin-bottom: 2px;
+  }
+}
+
+.header {
+  &__container {
+    height: 220px;
+    &.expanded {
+      .header__hidden {
+        bottom: 0;
+      }
+    }
+  }
+  &__top {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 3;
+    &:hover {
+      .header__topButtons {
+        top: 0;
+      }
+    }
+    &TextHidden {
+      display: none;
+    }
+    &Text {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      max-width: 900px;
+      bottom: 20px;
+      .headerHiddenLink {
+        display: none;
+      }
+    }
+    &Title {
+      color: white;
+      font-family: 'Roboto Condensed','Inter',sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 53px;
+    }
+    &Buttons {
+      position: absolute;
+      right: 15px;
+      top: -44px;
+      display: flex;
+      span {
+        cursor: pointer;
+        font-weight: bold;
+        align-items: center;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 16px;
+        padding: 7px 20px 12px 20px;
+        &:before {
+          position: relative;
+          margin-right: 5px;
+          top: 5px;
+          width: 20px;
+          height: 20px;
+          display: inline-block;
+        }
+      }
+      span:first-child {
+        //background-color: #f39200;
+        background-color: @mainColor;
+        color: white;
+        &:before {
+          content:'';
+          width: 20px;
+          height: 20px;
+          background: url('img/infoNew.svg') no-repeat;
+          background-size: cover;
+        }
+      }
+      span:last-child {
+        background-color: #fafafa;
+        color: #C6C6C6;
+        &:before {
+          content:'';
+          width: 20px;
+          height: 20px;
+          background: url('img/closeNew.svg') no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+    &ButtonsHidden {
+      display: none;
+    }
+    .container {
+      height: 100%;
+      position: relative;
+      &:after {
+        content: none;
+      }
+    }
+
+  }
+  &__container.collapsed {
+    height: 50px;
+    .header__hidden {
+      display: none;
+    }
+    .header__top {
+      position: relative;
+      height: 0;
+      background: linear-gradient(180deg, #24363c 0%,  lighten(#24363c, 5%) 76.04%) !important;
+      .container {
+        &:after {
+          content: none;
+        }
+      }
+      &Text {
+        bottom: 15px;
+        max-width: unset;
+        .headerHiddenLink {
+          display: flex;
+          color: white;
+          font-size: 10px;
+          line-height: 16px;
+          align-items: center;
+          letter-spacing: 1.5px;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-decoration: none;
+          img {
+            margin-right: 10px;
+          }
+          &.default {
+            &:before {
+              content:'';
+              width: 20px;
+              height: 20px;
+              background: url('img/infoNew.svg') no-repeat;
+              background-size: cover;
+              margin-right: 10px;
+            }
+          }
+        }
+        .header__topTitle {
+          display: none;
+        }
+      }
+      &Buttons {
+        display: none;
+      }
+      &ButtonsHidden {
+        cursor: pointer;
+        margin-top: 15px;
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin-right: 15px;
+        span {
+          display: flex;
+          font-weight: bold;
+          font-size: 10px;
+          line-height: 16px;
+          align-items: center;
+          text-align: right;
+          letter-spacing: 1.5px;
+          color: #fafafa;
+          text-transform: uppercase;
+          &:before {
+            margin-right: 10px;
+            content:'';
+            width: 20px;
+            background-size: cover;
+            height: 10px;
+            background: url('img/arrowToggle2.svg') no-repeat;
+          }
+        }
+      }
+      &.two {
+        background: lighten(@mainColor, 5%) !important;
+      }
+      &.one {
+        background: @mainColor !important;
+      }
+      &.release {
+        transition: .3s;
+        height: 50px;
+      }
+    }
+
+  }
+  &__hidden {
+    position: relative;
+    z-index: 1;
+    bottom: 1000px;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.15);
+    > div {
+      position: relative;
+      padding: 30px 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    p, ul li {
+      margin: 0 10vw 0 0;
+      font-size: 12px;
+      line-height: 16px;
+      align-items: center;
+      letter-spacing: 0.4px;
+      a {
+        font-size: 12px;
+        line-height: 16px;
+        color: @mainColor;
+        text-decoration: underline;
+      }
+    }
+    p, ul {
+      margin-bottom: 5px;
+    }
+    &Button {
+      max-height: 44px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding: 13px 40px;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 16px;
+      text-decoration: none;
+      color: white !important;
+      background-color: @mainColor;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .header {
+    &__topButtons {
+      right: 40px;
+      //margin-right: 10px;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+    &__container {
+      height: 100px;
+      margin-bottom: 30px;
+      &.collapsed {
+        .header__top {
+          &ButtonsHidden {
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+    &__top {
+      &Text {
+        max-width: 400px;
+        bottom: 3px;
+        //left: 40px;
+      }
+      &Title {
+        font-size: 24px;
+        line-height: 28px;
+      }
+      &Logos {
+        left: 40px;
+      }
+    }
+    &__hidden > div {
+      padding: 30px 40px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .collapseAdditionalButton {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+  }
+  .specWrap {
+    display: flex;
+    gap: 15px;
+  }
+  .header {
+    &__container {
+      height: 92px;
+      margin-bottom: 38px;
+      &.collapsed {
+        .header__topButtons {
+          display: none;
+        }
+        .header__topText {
+          left: 20px;
+          .headerHiddenLink {
+            font-size: 8px;
+          }
+        }
+        .header__topButtonsHidden span {
+          font-size: 7px;
+        }
+        .header__topButtonsHidden {
+          margin-right: 20px;
+        }
+      }
+    }
+    &__top {
+      &:hover {
+        .header__topButtons {
+          top: 100%;
+        }
+      }
+      &Text {
+        left: 20px;
+        max-width: 70%;
+      }
+      &Title {
+        font-size: 18px;
+        line-height: 20px;
+      }
+      &Buttons {
+        display: flex;
+        left: 0;
+        width: 100%;
+        top: 100%;
+        height: 38px;
+        span {
+          padding-top: 4px;
+          font-size: 8px;
+        }
+        > span:first-child {
+          flex: 0 0 55%;
+        }
+        > span:last-child {
+          flex: 0 0 45%;
+        }
+      }
+      .container {
+        &:after {
+          left: 50%;
+        }
+      }
+    }
+    &__hidden {
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 20px;
+      }
+      ul {
+        margin: 5px 0;
+      }
+      ul li {
+        margin: 0;
+      }
+      p:first-child {
+        margin: 30px 0 0;
+      }
+      p, ul {
+        margin: 0 0 5px 0;
+      }
+      &Button {
+        max-width: max-content;
+      }
+    }
+
+
+  }
+}
+
+@media (max-width: 430px) {
+  .header {
+    .header__container.collapsed .header__topText {
+      top: 5px;
+    }
+    .header__container.collapsed .header__topButtonsHidden {
+      left: 22px;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  .header {
+    .header__container.collapsed .header__topButtonsHidden {
+      left: 6px;
+    }
+    &__container {
+      &.collapsed {
+        .header__topText {
+          left: 5px;
+        }
+        .header__topButtonsHidden {
+          margin-right: 5px;
+        }
+      }
+    }
+    &__top {
+
+      &Text {
+        left: 5px;
+      }
+    }
+    &__hidden {
+      .container {
+        padding: 30px 5px;
+      }
+    }
+  }
+}

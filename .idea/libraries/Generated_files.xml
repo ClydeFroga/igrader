@@ -3,41 +3,63 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/../dpromGulp/app/js/app.min.js" />
-        <item url="file://$PROJECT_DIR$/../dpromGulp/app/js/app.min.min.js" />
+        <item url="file://$PROJECT_DIR$/../dpromGulp/app/js/output.min.js" />
+        <item url="file://$PROJECT_DIR$/../dpromGulp/gulpfile.min.js" />
+        <item url="file://$PROJECT_DIR$/../grader/nuxt.config.min.js" />
+        <item url="file://$PROJECT_DIR$/../grader/store/archive.min.js" />
+        <item url="file://$PROJECT_DIR$/../grader/store/botNews.min.js" />
+        <item url="file://$PROJECT_DIR$/../grader/store/lastMag.min.js" />
+        <item url="file://$PROJECT_DIR$/../grader/store/mainPage.min.js" />
         <item url="file://$PROJECT_DIR$/../leskGulp/app/html/js/app.min.min.js" />
         <item url="file://$PROJECT_DIR$/../leskGulp/app/html/js/snowFlakes.min.js" />
+        <item url="file://$PROJECT_DIR$/../leskGulp/app/js/newHeader.min.js" />
         <item url="file://$PROJECT_DIR$/../leskGulp/gulpfile.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/app.min.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/loadMore.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/localStorage.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/sticky.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/thumbs.min.js" />
+        <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/igrader/wp-content/themes/igrader/js/localStorage.min.js" />
+        <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/igrader/wp-content/themes/igrader/js/newHeader.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/igrader/wp-content/themes/igrader/js/validate.min.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/app.min.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/filter.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/foxySticky.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/loadMore.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/loadOnPages.min.js" />
+        <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/localStorage.min.js" />
+        <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/newHeader.min.js" />
         <item url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/stopLoading.min.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../dpromGulp/app/js/app.min.js" />
-      <root url="file://$PROJECT_DIR$/../dpromGulp/app/js/app.min.min.js" />
+      <root url="file://$PROJECT_DIR$/../dpromGulp/app/js/output.min.js" />
+      <root url="file://$PROJECT_DIR$/../dpromGulp/gulpfile.min.js" />
+      <root url="file://$PROJECT_DIR$/../grader/nuxt.config.min.js" />
+      <root url="file://$PROJECT_DIR$/../grader/store/archive.min.js" />
+      <root url="file://$PROJECT_DIR$/../grader/store/botNews.min.js" />
+      <root url="file://$PROJECT_DIR$/../grader/store/lastMag.min.js" />
+      <root url="file://$PROJECT_DIR$/../grader/store/mainPage.min.js" />
       <root url="file://$PROJECT_DIR$/../leskGulp/app/html/js/app.min.min.js" />
       <root url="file://$PROJECT_DIR$/../leskGulp/app/html/js/snowFlakes.min.js" />
+      <root url="file://$PROJECT_DIR$/../leskGulp/app/html/js/newHeader.min.js" />
       <root url="file://$PROJECT_DIR$/../leskGulp/gulpfile.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/app.min.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/loadMore.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/localStorage.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/sticky.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js/thumbs.min.js" />
+      <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/igrader/wp-content/themes/igrader/js/localStorage.min.js" />
+      <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/igrader/wp-content/themes/igrader/js/newHeader.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/igrader/wp-content/themes/igrader/js/validate.min.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/app.min.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/filter.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/foxySticky.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/loadMore.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/loadOnPages.min.js" />
+      <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/localStorage.min.js" />
+      <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/newHeader.min.js" />
       <root url="file://$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/js/stopLoading.min.js" />
     </CLASSES>
     <SOURCES />

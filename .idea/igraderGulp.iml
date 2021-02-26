@@ -9,5 +9,6 @@
     <orderEntry type="module" module-name="igrader" />
     <orderEntry type="module" module-name="dprom3" />
     <orderEntry type="module" module-name="forest" />
+    <orderEntry type="module" module-name="grader" />
   </component>
 </module>
