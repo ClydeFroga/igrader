@@ -87,7 +87,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leskGulp/app/html/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/img" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -104,18 +104,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\html\js" />
       <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\html\img" />
+      <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\html\js" />
       <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\images\src" />
       <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\sass\img" />
       <recent name="C:\xampp\htdocs\lesk\wp-content\themes\forest\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\lesk\wp-content\themes\forest\img" />
       <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\html\img" />
       <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\js" />
       <recent name="C:\xampp\htdocs\igrader\wp-content\themes\igrader\includes" />
       <recent name="C:\xampp\htdocs\lesk\wp-content\themes\forest\includes" />
-      <recent name="C:\xampp\htdocs\igrader\wp-content\themes\igrader\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -185,18 +185,12 @@
       <workItem from="1614147578492" duration="1554000" />
       <workItem from="1614217239499" duration="17557000" />
       <workItem from="1614242252381" duration="4302000" />
-      <workItem from="1614304953203" duration="6872000" />
+      <workItem from="1614304953203" duration="18783000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/../dpromGulp/app/js/test.js" />
-        <option value="$PROJECT_DIR$/../dpromGulp/app/js/test.js.map" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
