@@ -10,5 +10,6 @@
     <orderEntry type="module" module-name="dprom3" />
     <orderEntry type="module" module-name="forest" />
     <orderEntry type="module" module-name="grader" />
+    <orderEntry type="module" module-name="OptimizedHTML-5" />
   </component>
 </module>
