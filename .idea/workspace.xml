@@ -57,7 +57,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3" />
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
@@ -81,6 +81,9 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$USER_HOME$/Desktop/interactive-particles/package.json" />
+  </component>
   <component name="ProjectId" id="1jwjwoPIBb5lA4hCQqmguZb3Fvz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -88,11 +91,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/htdocs/lesk/wp-content/themes/forest/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../xampp/htdocs/dprom/wp-content/themes/dprom3/js" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -108,25 +112,25 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\hahlek\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="kite.configurable" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\lesk\wp-content\themes\forest\includes" />
-      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3\img" />
-      <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\sass\img" />
-      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3" />
-      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3\includes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\sass\blocks" />
+      <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\images\src" />
+      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3\img" />
       <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\html\img" />
       <recent name="C:\Users\hahlek\Documents\code\leskGulp\app\html\js" />
-      <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\images\src" />
-      <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\sass\img" />
-      <recent name="C:\xampp\htdocs\lesk\wp-content\themes\forest\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3\js" />
+      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3" />
+      <recent name="C:\xampp\htdocs\lesk\wp-content\themes\forest\js" />
+      <recent name="C:\Users\hahlek\Documents\code\dpromGulp\app\sass\svg\assets" />
+      <recent name="C:\xampp\htdocs\dprom\wp-content\themes\dprom3\svg\out\symbol\svg" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.function.js">
@@ -237,6 +241,26 @@
       <workItem from="1617095751950" duration="2561000" />
       <workItem from="1617098351327" duration="91000" />
       <workItem from="1617098451361" duration="3308000" />
+      <workItem from="1617172307299" duration="15574000" />
+      <workItem from="1617243772760" duration="15498000" />
+      <workItem from="1617337128518" duration="1822000" />
+      <workItem from="1617607174645" duration="5557000" />
+      <workItem from="1617679678480" duration="21209000" />
+      <workItem from="1617798179311" duration="597000" />
+      <workItem from="1617850065051" duration="16902000" />
+      <workItem from="1617937746769" duration="20426000" />
+      <workItem from="1618194018963" duration="20640000" />
+      <workItem from="1618278947557" duration="41111000" />
+      <workItem from="1618485972974" duration="2476000" />
+      <workItem from="1618568540961" duration="85000" />
+      <workItem from="1618568938557" duration="113000" />
+      <workItem from="1618827124697" duration="308000" />
+      <workItem from="1618828143081" duration="1760000" />
+      <workItem from="1618884605873" duration="2523000" />
+      <workItem from="1618919323652" duration="836000" />
+      <workItem from="1618975197401" duration="8263000" />
+      <workItem from="1619055963541" duration="2048000" />
+      <workItem from="1619063339433" duration="1817000" />
     </task>
     <servers />
   </component>
@@ -268,34 +292,46 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1318" y="533" width="759" height="333" key="#File_Watchers/0.0.3440.1400@0.0.3440.1400" timestamp="1610681208450" />
+    <state x="1355" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619069160144">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1355" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1619069160144" />
+    <state x="1171" y="505" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617174626291">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1171" y="505" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1617174626291" />
     <state x="1221" y="543" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1615792562206">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1221" y="543" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.3440.1400@0.0.3440.1400" timestamp="1615792562206" />
+    <state x="0" y="582" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1618282988226">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="0" y="582" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1618282988226" />
     <state x="1245" y="490" width="662" height="679" key="EditFileWatcherDialog" timestamp="1611542604759">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1245" y="490" width="662" height="679" key="EditFileWatcherDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1611542604759" />
-    <state x="1166" y="472" key="FileChooserDialogImpl" timestamp="1615794199688">
+    <state x="1166" y="472" key="FileChooserDialogImpl" timestamp="1618568566648">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1166" y="472" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1615794199688" />
-    <state width="1100" height="175" key="GridCell.Tab.0.bottom" timestamp="1615807524548">
+    <state x="1166" y="472" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1618568566648" />
+    <state width="1100" height="173" key="GridCell.Tab.0.bottom" timestamp="1618569052376">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1100" height="175" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1615807524548" />
-    <state width="1100" height="175" key="GridCell.Tab.0.center" timestamp="1615807524548">
+    <state width="1100" height="173" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1618569052376" />
+    <state width="1100" height="173" key="GridCell.Tab.0.center" timestamp="1618569052376">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1100" height="175" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1615807524548" />
-    <state width="1100" height="175" key="GridCell.Tab.0.left" timestamp="1615807524548">
+    <state width="1100" height="173" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1618569052376" />
+    <state width="1100" height="173" key="GridCell.Tab.0.left" timestamp="1618569052376">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1100" height="175" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1615807524548" />
-    <state width="1100" height="175" key="GridCell.Tab.0.right" timestamp="1615807524548">
+    <state width="1100" height="173" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1618569052376" />
+    <state width="1100" height="173" key="GridCell.Tab.0.right" timestamp="1618569052376">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1100" height="175" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1615807524548" />
+    <state width="1100" height="173" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1618569052376" />
     <state width="1100" height="335" key="GridCell.Tab.1.bottom" timestamp="1615807524543">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -348,14 +384,14 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1013" y="446" key="IDE.errors.dialog/0.0.3440.1400@0.0.3440.1400" timestamp="1616480380909" />
-    <state x="407" y="623" key="NewPhpFileDialog" timestamp="1616748919851">
+    <state x="407" y="623" key="NewPhpFileDialog" timestamp="1618279752453">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="407" y="623" key="NewPhpFileDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1616748919851" />
-    <state x="982" y="264" key="SettingsEditor" timestamp="1617098441952">
+    <state x="407" y="623" key="NewPhpFileDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1618279752453" />
+    <state x="1092" y="386" key="SettingsEditor" timestamp="1619059326928">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="982" y="264" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1617098441952" />
+    <state x="1092" y="386" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1619059326928" />
     <state x="1040" y="309" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613803557054">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -368,32 +404,29 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1915" y="35" width="854" height="1208" key="dock-window-1/0.0.3440.1400@0.0.3440.1400" timestamp="1613097354404" />
-    <state x="954" y="345" width="1049" height="719" key="find.popup" timestamp="1617098549385">
+    <state x="954" y="345" width="1049" height="719" key="find.popup" timestamp="1618827327167">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="954" y="345" width="1049" height="719" key="find.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1617098549385" />
+    <state x="954" y="345" width="1049" height="719" key="find.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1618827327167" />
     <state x="1299" y="570" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1610679932202">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1299" y="570" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.3440.1400@0.0.3440.1400" timestamp="1610679932202" />
-    <state x="1104" y="1050" width="672" height="677" key="run.anything.popup" timestamp="1617094399708">
+    <state x="1276" y="472" key="refactoring.ChangeSignatureDialog" timestamp="1617610613454">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1104" y="1050" width="672" height="677" key="run.anything.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1617094399708" />
+    <state x="1276" y="472" key="refactoring.ChangeSignatureDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1617610613454" />
+    <state x="1104" y="1050" width="672" height="677" key="run.anything.popup" timestamp="1617273463936">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1104" y="1050" width="672" height="677" key="run.anything.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1617273463936" />
+    <state x="1273" y="477" key="scopes" timestamp="1618217927034">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1273" y="477" key="scopes/0.0.3440.1400@0.0.3440.1400" timestamp="1618217927034" />
     <state x="1096" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1615884196679">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1096" y="320" width="672" height="678" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1615884196679" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/../dpromGulp/app/js/test.ts</url>
-          <line>11</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
